@@ -113,7 +113,7 @@ h3{
 }
 
 /** hover para la iluminacion del elemento en cuanto pase el indicador en el elemento **/
-
+.navegacion__enlace--activo,
 .navegacion__enlace:hover{
     color: var(--secundario);
 }
