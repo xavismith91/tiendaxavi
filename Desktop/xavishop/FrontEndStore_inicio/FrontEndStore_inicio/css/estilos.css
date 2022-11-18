@@ -25,7 +25,7 @@ html{
 
 
 body{
-    background-color: var(--primario);
+    background-color: #000;
     font-size: 1.6rem;
     line-height: 1.5;
 }
@@ -93,6 +93,21 @@ h3{
 
 }
 
+/** Footer **/
+
+.footer{
+background-color: var(--primarioObscuro);
+padding: 1rem 0;
+margin-top: 3rem;
+}
+
+.footer--texto{
+    font-family: var(--fuentePrincipal);
+    text-align: center;
+    font-size: 2.2rem;
+    
+}
+
 
 /**Navegacion**/
 
@@ -101,7 +116,7 @@ h3{
     padding: 1rem 0;
     display: flex;
     justify-content: center;
-    gap: 2rem;
+    gap: 2rem; /**Separación forma Nueva**/
 }
 
 
@@ -110,6 +125,7 @@ h3{
     font-family: var(--fuentePrincipal);
     color: var(--blanco);
     font-size: 3rem;
+    margin-right: 2rem;
 }
 
 /** hover para la iluminacion del elemento en cuanto pase el indicador en el elemento **/
