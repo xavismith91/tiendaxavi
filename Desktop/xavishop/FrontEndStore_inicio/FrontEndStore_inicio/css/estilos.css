@@ -25,7 +25,7 @@ html{
 
 
 body{
-    background-color: #000;
+    background-color: var(--primario);
     font-size: 1.6rem;
     line-height: 1.5;
 }
