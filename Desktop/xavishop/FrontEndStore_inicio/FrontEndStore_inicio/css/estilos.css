@@ -186,7 +186,8 @@ margin-top: 3rem;
 
 .grafico{
     min-height: 30rem;
-
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .grafico--camisas{
@@ -198,6 +199,7 @@ margin-top: 3rem;
 .grafico--node{
     background-image: url(../img/grafico2.jpg);
     grid-column: 1 /3;;
+    grid-row: 8/9;
 }
 
 
