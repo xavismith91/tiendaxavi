@@ -238,9 +238,18 @@ margin-top: 3rem;
 
 @media (min-width: 768px) {
 
-    .nosotros__iagen{
-     
+    .nosotros__imagen{
         grid-column: 2/3;
-     
     }
+}
+
+
+/** Bloques**/
+
+.bloque{
+
+}
+
+.bloques{
+    
 }
