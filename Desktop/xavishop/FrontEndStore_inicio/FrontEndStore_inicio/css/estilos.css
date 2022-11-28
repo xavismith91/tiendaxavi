@@ -203,11 +203,44 @@ margin-top: 3rem;
 }
 
 
-
-
 @media(min-width: 768px){
 .grafico--node {
     grid-row: 5 / 6;
     grid-column: 2 / 4;
 }
 } 
+
+
+/**Nosotros  **/
+
+.nosotros{
+
+    display: grid;
+    grid-template-rows: repeat(2,auto);
+}
+
+@media (min-width: 768px) {
+
+    .nosotros{
+        
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem ;
+    }
+}
+
+
+.nosotros__imagen{
+
+    grid-row: 1/2;
+    width: 100%;
+
+}
+
+@media (min-width: 768px) {
+
+    .nosotros__iagen{
+     
+        grid-column: 2/3;
+     
+    }
+}
