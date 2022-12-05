@@ -28,15 +28,15 @@
 
         <div class="camisa">
 
-         <img class="camisa__imagen0" src="../FrontEndStore_inicio/img/3.jpg" alt="Imagen del Producto">
+         <img class="camisa__imagen" src="../FrontEndStore_inicio/img/3.jpg" alt="Imagen del Producto">
          
-         <div class="imagen__contenido">
+         <div class="camisa__contenido">
             <p>
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem laboriosam odio doloribus </p>
+               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia neque distinctio saepe, nihil cum magnam architecto consequatur id doloremque aut possimus facilis doloribus at velit voluptate unde esse nisi? Nihil?.</p>
             </p>
 
             <form class="formulario">
-               <select>
+               <select class="formulario__campo">
                   <option disabled selected>--Seleccione una Talla--</option>
                    <option class="tamaño">XS</option>
                    <option class="tamaño">Chica</optio>
@@ -44,8 +44,8 @@
                    <option class="tamaño">Grande</option>
                    <option class="tamaño">XL</option>
                </select>
-               <input type="number" placeholder="Cantidad" min="1">
-               <input type="submit"  value="Agregar al carrito"> 
+               <input class="formulario__campo" type="number" placeholder="Cantidad" min="1"> <!-- la funcion min dentro de el list ayudara a no colocar numeros negativos en el check list -->
+               <input class="formulario__submit" type="submit"  value="Agregar al carrito"> 
             </form>
 
          </div>

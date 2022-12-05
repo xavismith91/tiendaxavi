@@ -273,9 +273,54 @@ gap: 2rem;
 }
 
 /**Formulario **/
-
-
 .formulario{
     font-size: large;
     font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+@media (min-width:768px){
+
+        .camisa{
+            display:grid;
+            grid-template-columns:  repeat(2,1fr);
+            column-gap: 2rem;
+        }
+}
+
+
+
+.formulario{
+
+    
+
+}
+
+
+
+.formulario__campo{
+
+    border-color: var(--primarioObscuro);
+    border-width: 1rem; 
+    border-style: solid; 
+}
+
+
+.formulario__submit{
+
+    background-color: var(--secundario);
+    border: none;
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 2rem; 
+    transition: background-color .3s ease;
+}
+
+
+.formulario__submit:hover{
+
+    cursor: pointer; 
+    background-color: var(--secundarioObscuro);
+    
 }
