@@ -292,35 +292,37 @@ gap: 2rem;
 
 
 .formulario{
-
-    
-
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
 }
 
 
 
-.formulario__campo{
-
-    border-color: var(--primarioObscuro);
-    border-width: 1rem; 
-    border-style: solid; 
+.formulario__campo{         
+    border: 1rem solid var(--primarioObscuro);
+    background-color: transparent;
+    font-size: 2rem;
+    color: var(--blanco);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1rem;
+    appearance: none;
 }
 
 
 .formulario__submit{
-
     background-color: var(--secundario);
     border: none;
-    font-size: 2rem;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 2rem; 
+    font-size: 1.2rem;
+    font-family: var(--fuentePrincipal);
+    padding : 2rem; 
     transition: background-color .3s ease;
+    grid-column: 1/3;    
 }
 
 
 .formulario__submit:hover{
-
     cursor: pointer; 
-    background-color: var(--secundarioObscuro);
+    background-color: var(--secundarioObscuro); 
     
 }
