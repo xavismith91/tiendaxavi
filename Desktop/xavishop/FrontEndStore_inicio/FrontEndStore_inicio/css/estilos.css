@@ -45,7 +45,7 @@ a{
 
 
 img{
-    max-width: 100%;
+    width: 100%;
 }
 
 .contenedor{
@@ -158,13 +158,6 @@ margin-top: 3rem;
 .producto__imagen{
   width: 100%;
 }
-
-
-.producto__informacion{
-
-    
-}
-
 
 .producto__nombre{
     font-size: 4rem;
